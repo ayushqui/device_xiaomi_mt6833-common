@@ -110,9 +110,9 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.default \
     android.hardware.boot-service.default_recovery
 
+# CAS
 PRODUCT_PACKAGES += \
-    create_pl_dev \
-    create_pl_dev.recovery
+    android.hardware.cas@1.2-service-lazy
 
 # Camera
 PRODUCT_PACKAGES += \
